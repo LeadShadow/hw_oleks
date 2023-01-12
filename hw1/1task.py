@@ -6,7 +6,7 @@
 # subscription — установить в значение None
 
 
-name =
-age =
-is_active =
-subscription =
+name = 'Oleksiy'
+age = 14
+is_active = True
+subscription = None
