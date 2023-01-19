@@ -9,3 +9,10 @@
 # Адміністратор завжди має доступ незалежно від значень змінних is_admin і is_active.
 
 # Користувач має доступ тільки якщо is_permission дорівнює True і is_active також дорівнює True
+
+is_active = bool(input('Is the user active?: '))
+is_admin = bool(input('Is the user admin?: '))
+is_permission = bool(input('Does the user have acces?: '))
+access = is_permission and is_active or is_admin
+print(access)
+
