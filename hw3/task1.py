@@ -1,10 +1,12 @@
 # пам'ятаєш ми робили завдання levels.py в модулі lesson2
 # тобі потрібно написати схоже завдання використовуючи цикл while, підказки до завдання дам
 
-
 x = int(input('X: '))
-y = int(input('Y:'))
-while True:
-    # тут має бути умова рівності(if) нулю + виведення X can't be equal to zero, а далі треба знову
-    # писати x = int(input('X: '))
-    # далі має бути умова(else) і закінчувати цикл
+y = int(input('Y: '))
+
+while x == 0 :
+    print("X can't be equal to zero")
+    x = int(input('X: '))
+
+result = y / x
+print(result)
